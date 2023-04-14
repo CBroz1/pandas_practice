@@ -1,0 +1,6 @@
+ipykernel
+pytest
+pytest-cov
+jupytext
+pandas
+black[jupyter]

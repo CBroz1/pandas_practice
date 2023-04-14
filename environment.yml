@@ -1,0 +1,16 @@
+name: tmp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8,<3.10
+  - ipython
+  - jupyterlab>=3.*
+  - pip
+  - pip:
+    - ipykernel
+    - pytest
+    - pytest-cov
+    - jupytext
+    - pandas
+    - 'black[jupyter]'
